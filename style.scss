@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-icon {
+    font-size: 40px;
+    padding: 5px 10px;
+}
+
+.hamburger {
+    display: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.nav-right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+@media (max-width: 450px) {
+    .hamburger {
+        display: block;
+    }
+
+    .links {
+        display: none;
+    }
+}
+
