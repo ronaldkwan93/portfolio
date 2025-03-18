@@ -21,3 +21,7 @@
 ### Hero-section with hover interaction
 
 ![Image](https://github.com/user-attachments/assets/56140213-ebb5-4930-bbe0-74c7420756f8)
+
+### Tech-stack-section 
+
+![Image](https://github.com/user-attachments/assets/cf2397ea-ed3e-4970-82f5-fa3a0f0b7bd9)
