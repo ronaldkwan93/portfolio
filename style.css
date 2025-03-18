@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -39,10 +44,10 @@ nav {
   font-family: "Prompt", sans-serif;
 }
 .hero__text {
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
 .hero__text__header {
-  font-size: 3.5em;
+  font-size: 2em;
 }
 .hero__text__hidden {
   background-color: black;
@@ -50,6 +55,36 @@ nav {
 }
 .hero__text__hidden:hover {
   background-color: white;
+}
+
+.tech-stack {
+  border: 1px solid black;
+  height: 100%;
+  font-family: "Prompt", sans-serif;
+  padding: 10% 10%;
+}
+.tech-stack__container {
+  display: flex;
+  border: 1px solid black;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5em;
+  padding: 10% 10%;
+}
+.tech-stack__container .tech-stack__card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.tech-stack__container .tech-stack__card i {
+  font-size: 3em;
+}
+.tech-stack__container .tech-stack__card p {
+  font-size: 1.5em;
+  font-family: "Prompt", sans-serif;
+}
+.tech-stack__header {
+  font-size: 2.5em;
 }
 
 @media (max-width: 470px) {
@@ -73,10 +108,13 @@ nav {
     gap: 0;
   }
   .hero__text {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   .hero__text__header {
-    font-size: 2em;
+    font-size: 1.5em;
+  }
+  .tech-stack__header {
+    font-size: 1.5em;
   }
 }
 

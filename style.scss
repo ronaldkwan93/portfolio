@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -38,9 +43,9 @@ nav {
     gap: 20px;
     font-family: "Prompt", sans-serif;
     &__text {
-        font-size: 2.5em;
+        font-size: 1.5em;
     &__header {
-        font-size: 3.5em;
+        font-size: 2em;
     }
     &__hidden {
         background-color: black;
@@ -52,6 +57,37 @@ nav {
     }
     }
     
+}
+
+.tech-stack {
+    border: 1px solid black;
+    height: 100%;
+    font-family: "Prompt", sans-serif;
+    padding: 10% 10%;
+    &__container {
+        display: flex;
+        border: 1px solid black;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5em;
+        padding: 10% 10%;
+        .tech-stack__card {
+            
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            i {
+                font-size: 3em;
+            }
+            p {
+                font-size: 1.5em;
+                font-family: "Prompt", sans-serif;
+            }
+        }
+    }
+    &__header {
+        font-size: 2.5em;
+    }
 }
 
 @media (max-width: 470px) {
@@ -81,10 +117,16 @@ nav {
 
     .hero {
         &__text {
-            font-size: 1.5em;
+            font-size: 1.2em;
         &__header {
-            font-size: 2em;
+            font-size: 1.5em;
         }
+        }
+    }
+
+    .tech-stack {
+        &__header {
+            font-size: 1.5em;
         }
     }
 }
