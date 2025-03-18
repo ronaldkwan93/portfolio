@@ -9,3 +9,11 @@
 ### Non mobile view
 
 ![Image](https://github.com/user-attachments/assets/97e86cdb-7cfb-4460-a1cd-c19a4620da0d)
+
+### Hero-section
+
+![Image](https://github.com/user-attachments/assets/6e73e332-9bfd-4e68-8c9e-711b8637bd1c)
+
+### Hero-section with hover interaction
+
+![Image](https://github.com/user-attachments/assets/56140213-ebb5-4930-bbe0-74c7420756f8)
