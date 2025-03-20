@@ -153,12 +153,12 @@ nav {
   &__content__container {
     height: 50%;
     display: flex;
-    border: 1px solid black;
+    // border: 1px solid black;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 0 10%;
-    gap: 2em;
+    gap: 5em;
     img {
       border-radius: 50%;
       max-height: 80%;
@@ -231,6 +231,26 @@ nav {
         display: none; 
         width: 0; 
         flex: 0;
+      }
+    }
+  }
+
+  .about {
+    &__content__container {
+      display: flex;
+      flex-direction: column;
+      
+      &__img {
+        width: 100%;
+        overflow: hidden;
+        
+        img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+          max-width: 100%;
+          display: block;
+        }
       }
     }
   }

@@ -152,12 +152,11 @@ nav {
 .about__content__container {
   height: 50%;
   display: flex;
-  border: 1px solid black;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 0 10%;
-  gap: 2em;
+  gap: 5em;
 }
 .about__content__container img {
   border-radius: 50%;
@@ -215,6 +214,21 @@ nav {
     display: none;
     width: 0;
     flex: 0;
+  }
+  .about__content__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .about__content__container__img {
+    width: 100%;
+    overflow: hidden;
+  }
+  .about__content__container__img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+    display: block;
   }
 }
 
