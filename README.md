@@ -25,3 +25,11 @@
 ### Tech-stack-section 
 
 ![Image](https://github.com/user-attachments/assets/cf2397ea-ed3e-4970-82f5-fa3a0f0b7bd9)
+
+### Project-section (placeholder) - full screen view
+
+![Image](https://github.com/user-attachments/assets/0bb3c6ba-65a9-478a-9a02-495cff005427)
+
+### Project-section (placeholder) - mobile view
+
+![Image](https://github.com/user-attachments/assets/4399afc9-ac27-453c-825a-d4c835051664)

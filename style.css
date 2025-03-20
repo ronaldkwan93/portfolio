@@ -89,7 +89,7 @@ nav {
 }
 
 .project {
-  height: 100vh;
+  height: 100%;
   border: 1px solid black;
   padding: 10%;
 }
@@ -98,21 +98,22 @@ nav {
   font-size: 2.5em;
 }
 .project__container {
-  border: 1px solid green;
+  border: 1px solid black;
   height: 80%;
   display: flex;
   gap: 1em;
   padding: 1em;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  overflow: hidden;
 }
 .project__card {
   border: 1px solid black;
   color: red;
   display: flex;
-  height: 30%;
-  width: 20em;
+  height: 35%;
+  width: 25em;
   flex-shrink: 0;
 }
 .project__card--left {
@@ -123,7 +124,8 @@ nav {
 }
 .project__card--left img {
   width: 100%;
-  object-fit: cover;
+  height: 65%;
+  object-fit: fill;
 }
 .project__card--right {
   display: flex;
@@ -161,6 +163,20 @@ nav {
   }
   .tech-stack__header {
     font-size: 1.5em;
+  }
+  .project__card {
+    flex-direction: column;
+  }
+  .project__card--left {
+    width: 100%;
+  }
+  .project__card--left img {
+    height: 70%;
+  }
+  .project__card--right {
+    display: none;
+    width: 0;
+    flex: 0;
   }
 }
 

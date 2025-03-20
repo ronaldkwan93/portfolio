@@ -90,7 +90,7 @@ nav {
 }
 
 .project {
-  height: 100vh;
+  height: 100%;
   border: 1px solid black;
   padding: 10%;
   &__header {
@@ -98,21 +98,22 @@ nav {
     font-size: 2.5em;
   }
   &__container {
-    border: 1px solid green;
+    border: 1px solid black;
     height: 80%;
     display: flex;
     gap: 1em;
     padding: 1em;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    overflow: hidden;
   }
   &__card {
     border: 1px solid black;
     color: red;
     display: flex;
-    height: 30%;
-    width: 20em;
+    height: 35%;
+    width: 25em;
     flex-shrink: 0;
 
     &--left {
@@ -122,7 +123,8 @@ nav {
       overflow: hidden;
       img {
         width: 100%;
-        object-fit: cover;
+        height: 65%;
+        object-fit: fill;
       }
     }
     &--right {
@@ -172,6 +174,26 @@ nav {
   .tech-stack {
     &__header {
       font-size: 1.5em;
+    }
+  }
+
+  .project {
+    &__card {
+      
+      flex-direction: column;
+      
+      &--left {
+        width: 100%; 
+       img {
+        height: 70%;
+       }
+      }
+      
+      &--right {
+        display: none; 
+        width: 0; 
+        flex: 0;
+      }
     }
   }
 }
