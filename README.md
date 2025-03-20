@@ -33,3 +33,11 @@
 ### Project-section (placeholder) - mobile view
 
 ![Image](https://github.com/user-attachments/assets/4399afc9-ac27-453c-825a-d4c835051664)
+
+### About-section (placeholder) - full screen view
+
+![Image](https://github.com/user-attachments/assets/21fefaf2-722c-4b0e-8651-39c9ce21c7c7)
+
+### About-section (placeholder) - mobile view
+
+![Image](https://github.com/user-attachments/assets/4a56c445-3312-4a1c-9606-68f2060457dd)
