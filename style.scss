@@ -1,6 +1,11 @@
 nav {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.5em;
+  background-color: white;
 }
 
 .nav-icon {
