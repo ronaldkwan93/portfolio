@@ -150,13 +150,14 @@ nav {
   justify-content: space-between;
 }
 .about__content__container {
-  height: 50%;
+  height: 100%;
   display: flex;
+  border: 1px solid black;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 0 10%;
-  gap: 5em;
+  gap: 2em;
 }
 .about__content__container img {
   border-radius: 50%;
@@ -166,7 +167,10 @@ nav {
   flex: 1;
 }
 .about__content__container__text {
-  flex: 1;
+  flex: 2;
+}
+.about__content__container__text p {
+  min-width: 200px;
 }
 .about__content__container__links {
   flex: 1;
