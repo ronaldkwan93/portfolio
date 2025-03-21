@@ -41,3 +41,11 @@
 ### About-section (placeholder) - mobile view
 
 ![Image](https://github.com/user-attachments/assets/4a56c445-3312-4a1c-9606-68f2060457dd)
+
+### About -section (updated) - full screen view
+
+![Image](https://github.com/user-attachments/assets/1ae18b1b-d6d5-4a36-baf2-c1be76bb5072)
+
+### About -section (updated) - mobile view
+
+![Image](https://github.com/user-attachments/assets/ff78d44b-6932-402d-9dcd-147f8e820e9c)
