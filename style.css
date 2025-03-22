@@ -115,11 +115,11 @@ nav {
 }
 .project__card {
   border: 1px solid black;
-  color: red;
   display: flex;
   height: 35%;
   width: 25em;
   flex-shrink: 0;
+  gap: 5%;
 }
 .project__card--left {
   border: 1px solid black;
