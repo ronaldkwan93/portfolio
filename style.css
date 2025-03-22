@@ -176,6 +176,11 @@ nav {
   flex: 1;
 }
 
+.footer__text {
+  text-align: end;
+  padding: 0 1%;
+}
+
 @media (max-width: 470px) {
   .hamburger {
     display: block;

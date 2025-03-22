@@ -49,3 +49,7 @@
 ### About -section (updated) - mobile view
 
 ![Image](https://github.com/user-attachments/assets/ff78d44b-6932-402d-9dcd-147f8e820e9c)
+
+### Footer 
+
+![Image](https://github.com/user-attachments/assets/5a9e4f24-f90e-493a-8bc4-1ce295fc56c7)
