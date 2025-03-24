@@ -40,7 +40,6 @@ nav {
 }
 
 .hero {
-  border: 1px solid black;
   height: 80vh;
   display: flex;
   flex-direction: column;
