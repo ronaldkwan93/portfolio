@@ -108,21 +108,22 @@ nav {
 
 .project {
   height: 100%;
+  min-height: 50vh;
   padding: 10%;
-  background: rgb(255, 255, 255);
+  background: white;
   background: linear-gradient(
     0deg,
     rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0.7) 40%,
-    rgba(248, 246, 223, 0.9) 100%
+    rgba(255, 255, 255, 0.7) 0.5%,
+    rgba(248, 246, 223, 1) 100%
   );
   &__header {
-    text-align: center;
     font-size: 2.5em;
+    padding-bottom: 0.5em;
   }
   &__container {
     border: 1px solid black;
-    box-shadow: 10px 10px 100px #888888;
+    box-shadow: 10px 10px 8px #888888;
     border-radius: 3px;
     height: 80%;
     display: flex;
@@ -132,7 +133,6 @@ nav {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background: rgba(235, 232, 214, 0.9);
   }
   &__card {
     border: 1px solid black;
