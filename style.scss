@@ -114,7 +114,7 @@ nav {
   background: linear-gradient(
     0deg,
     rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0.7) 0.5%,
+    rgba(255, 255, 255, 0.7) 90%,
     rgba(248, 246, 223, 1) 100%
   );
   &__header {
@@ -171,19 +171,22 @@ nav {
 .about {
   height: 100%;
   padding: 0 10%;
-  border: 1px solid black;
+  background-color: rgb(248, 246, 223);
   &__heading__container {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 0.5em;
   }
   &__content__container {
+    border-radius: 3px;
+    box-shadow: 10px 10px 8px #888888;
     height: 100%;
     display: flex;
     border: 1px solid black;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0 10%;
+    padding: 5% 10%;
     gap: 2em;
     img {
       border-radius: 50%;
