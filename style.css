@@ -148,6 +148,10 @@ nav {
   height: 65%;
   object-fit: fill;
 }
+.project__card--left i {
+  font-size: 1.2em;
+  padding-left: 0.6em;
+}
 .project__card--right {
   display: flex;
   justify-content: center;
