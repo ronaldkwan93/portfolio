@@ -194,6 +194,11 @@ nav {
 .about__content__container__links {
   flex: 1;
 }
+.about__content__container__links i {
+  font-size: 2.5em;
+  text-decoration: none;
+  color: black;
+}
 
 .footer__text {
   text-align: end;

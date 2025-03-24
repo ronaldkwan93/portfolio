@@ -203,6 +203,11 @@ nav {
     }
     &__links {
       flex: 1;
+      i {
+        font-size: 2.5em;
+        text-decoration: none;
+        color: black;
+      }
     }
   }
 }
