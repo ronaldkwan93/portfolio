@@ -49,7 +49,13 @@ nav {
   padding: 0px 10%;
   gap: 20px;
   font-family: "Prompt", sans-serif;
-  
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.7) 40%,
+    rgba(248, 246, 223, 0.9) 100%
+  );
   &__text {
     font-size: 1.5em;
     &__header {
@@ -170,9 +176,9 @@ nav {
     }
     &__text {
       flex: 2;
-     p {
-      min-width: 200px;
-     }
+      p {
+        min-width: 200px;
+      }
     }
     &__links {
       flex: 1;
@@ -229,19 +235,18 @@ nav {
 
   .project {
     &__card {
-      
       flex-direction: column;
-      
+
       &--left {
-        width: 100%; 
-       img {
-        height: 70%;
-       }
+        width: 100%;
+        img {
+          height: 70%;
+        }
       }
-      
+
       &--right {
-        display: none; 
-        width: 0; 
+        display: none;
+        width: 0;
         flex: 0;
       }
     }
@@ -251,11 +256,11 @@ nav {
     &__content__container {
       display: flex;
       flex-direction: column;
-      
+
       &__img {
         width: 100%;
         overflow: hidden;
-        
+
         img {
           width: 100%;
           height: auto;

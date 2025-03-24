@@ -49,6 +49,8 @@ nav {
   padding: 0px 10%;
   gap: 20px;
   font-family: "Prompt", sans-serif;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.7) 40%, rgba(248, 246, 223, 0.9) 100%);
 }
 .hero__text {
   font-size: 1.5em;
