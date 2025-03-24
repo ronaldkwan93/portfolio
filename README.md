@@ -1,5 +1,17 @@
 # Welcome to my Portfolio
 
+## Introduction
+
+- This project is to build a personal portfolio website that showcases my work and who I am. I wil be using Git and GitHub workflows while applying SCSS & BEM. This website includes:
+
+- Hero section with my name & title
+- Tech section sharing my tech-stack, especially the ones i have learnt at Nology
+- Project section with placeholder images and icons to links to emulate real life projects with text
+- About section with contact links such as email (fake), linkedin and Github.
+- Footer section with the technologies i've used for this portfolio.
+
+- Screenshots are provided as i have progressed.
+
 ## In progress (features)
 
 ### Nav-bar - added hamburger for mobile view
@@ -22,7 +34,7 @@
 
 ![Image](https://github.com/user-attachments/assets/56140213-ebb5-4930-bbe0-74c7420756f8)
 
-### Tech-stack-section 
+### Tech-stack-section
 
 ![Image](https://github.com/user-attachments/assets/cf2397ea-ed3e-4970-82f5-fa3a0f0b7bd9)
 
@@ -50,6 +62,6 @@
 
 ![Image](https://github.com/user-attachments/assets/ff78d44b-6932-402d-9dcd-147f8e820e9c)
 
-### Footer 
+### Footer
 
 ![Image](https://github.com/user-attachments/assets/5a9e4f24-f90e-493a-8bc4-1ce295fc56c7)
