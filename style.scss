@@ -73,13 +73,15 @@ nav {
 }
 
 .tech-stack {
-  border: 1px solid black;
   height: 100%;
   font-family: "Prompt", sans-serif;
   padding: 10% 10%;
+  background: rgba(248, 246, 223, 1);
   &__container {
     display: flex;
     border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 10px 10px 8px #888888;
     flex-wrap: wrap;
     justify-content: center;
     gap: 5em;
