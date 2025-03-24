@@ -31,6 +31,7 @@ nav {
   align-items: center;
   gap: 10px;
   position: relative;
+  padding-right: 3%;
 }
 
 .links {
@@ -48,6 +49,7 @@ nav {
   padding: 0px 10%;
   gap: 20px;
   font-family: "Prompt", sans-serif;
+  
   &__text {
     font-size: 1.5em;
     &__header {
