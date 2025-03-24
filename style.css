@@ -138,19 +138,21 @@ nav {
   transform: scale(1.05);
 }
 .project__card--left {
-  border: 1px solid black;
   text-align: center;
   width: 50%;
   overflow: hidden;
+  min-height: 317px;
 }
 .project__card--left img {
   width: 100%;
-  height: 65%;
-  object-fit: fill;
+  height: 80%;
+  object-fit: contain;
 }
 .project__card--left i {
   font-size: 1.2em;
   padding-left: 0.6em;
+  text-decoration: none;
+  color: black;
 }
 .project__card--right {
   display: flex;
@@ -241,12 +243,17 @@ nav {
   }
   .project__card {
     flex-direction: column;
+    border: none;
   }
   .project__card--left {
     width: 100%;
+    border: none;
   }
   .project__card--left img {
+    padding-top: 3em;
     height: 70%;
+    width: 60%;
+    object-fit: contain;
   }
   .project__card--right {
     display: none;
