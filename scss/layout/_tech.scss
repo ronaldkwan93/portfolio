@@ -1,0 +1,35 @@
+@use '../parital/variables' as v;
+@use '../parital/mixins' as m;
+
+
+.tech-stack {
+    height: 100%;
+    font-family: v.$font-primary;
+    padding: 10% 10%;
+    background: v.$secondary-background;
+    &__container {
+      display: flex;
+      justify-content: center;
+      border: 1px solid black;
+      border-radius: 3px;
+      box-shadow: 10px 10px 8px #888888;
+      flex-wrap: wrap;
+      gap: 5em;
+      padding: 10% 10%;
+      .tech-stack__card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        i {
+          font-size: 3em;
+        }
+        p {
+          font-size: 1.5em;
+          font-family: v.$font-primary;
+        }
+      }
+    }
+    &__header {
+      font-size: 2.5em;
+    }
+  }

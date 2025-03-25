@@ -1,0 +1,42 @@
+@use '../parital/variables' as v;
+@use '../parital/mixins' as m;
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 0.5em;
+    background-color: v.$primary-background;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+  
+  .nav-icon {
+    font-size: 40px;
+    padding: 5px 10px;
+  }
+  
+  .hamburger {
+    display: none;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .nav-right-container {
+    @include m.flex-center;
+    gap: 10px;
+    position: relative;
+    padding-right: 3%;
+  }
+  
+  .links {
+    text-decoration: none;
+    font-size: 1.2em;
+    &:hover {
+      background-color: v.$color-hover;
+      border-radius: 5px;
+    }
+  }

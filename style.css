@@ -1,17 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Prompt", sans-serif;
-  scroll-behavior: smooth;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
   position: fixed;
   width: 100%;
   padding: 0.5em;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 nav a {
   text-decoration: none;
@@ -50,9 +43,9 @@ nav a {
 .hero {
   height: 80vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+  flex-direction: column;
   padding: 0px 10%;
   gap: 20px;
   font-family: "Prompt", sans-serif;
@@ -70,7 +63,7 @@ nav a {
   transition: background-color 0.5s ease;
 }
 .hero__text__hidden:hover {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 .tech-stack {
@@ -81,11 +74,11 @@ nav a {
 }
 .tech-stack__container {
   display: flex;
+  justify-content: center;
   border: 1px solid black;
   border-radius: 3px;
   box-shadow: 10px 10px 8px #888888;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 5em;
   padding: 10% 10%;
 }
@@ -109,7 +102,7 @@ nav a {
   height: 100%;
   min-height: 50vh;
   padding: 10%;
-  background: white;
+  background: rgb(255, 255, 255);
   background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.7) 90%, rgb(248, 246, 223) 100%);
 }
 .project__header {
@@ -122,11 +115,11 @@ nav a {
   border-radius: 3px;
   height: 80%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 1em;
   padding: 1em;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   overflow: hidden;
 }
 .project__card {
@@ -183,9 +176,9 @@ nav a {
   box-shadow: 10px 10px 8px #888888;
   height: 100%;
   display: flex;
-  border: 1px solid black;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
   flex-wrap: wrap;
   padding: 5% 10%;
   gap: 2em;
@@ -215,6 +208,13 @@ nav a {
 .footer__text {
   text-align: end;
   padding: 2% 1%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Prompt", sans-serif;
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 470px) {

@@ -1,0 +1,49 @@
+@use "../parital/variables" as v;
+@use "../parital/mixins" as m;
+
+.about {
+  height: 100%;
+  padding: 5% 10%;
+  background-color: v.$secondary-background;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.7) 10%,
+    rgba(248, 246, 223, 1) 100%
+  );
+  &__heading__container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5em;
+  }
+  &__content__container {
+    border-radius: 3px;
+    box-shadow: 10px 10px 8px #888888;
+    height: 100%;
+    @include m.flex-center;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    padding: 5% 10%;
+    gap: 2em;
+    img {
+      border-radius: 50%;
+      max-height: 80%;
+    }
+    &__img {
+      flex: 1;
+    }
+    &__text {
+      flex: 2;
+      p {
+        min-width: 200px;
+      }
+    }
+    &__links {
+      flex: 1;
+      i {
+        font-size: 2.5em;
+        @include m.icon-decoration-none;
+      }
+    }
+  }
+}

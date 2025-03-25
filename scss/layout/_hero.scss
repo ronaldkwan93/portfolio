@@ -1,0 +1,33 @@
+@use '../parital/mixins' as m;
+@use '../parital/variables' as v;
+
+.hero {
+    height: 80vh;
+    @include m.flex-end;
+    flex-direction: column;
+    padding: 0px 10%;
+    gap: 20px;
+    font-family: v.$font-primary;
+    background: v.$primary-background;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0.7) 40%,
+      rgba(248, 246, 223, 0.9) 100%
+    );
+    &__text {
+      font-size: 1.5em;
+      &__header {
+        font-size: 2em;
+      }
+      &__hidden {
+        background-color: black;
+        transition: background-color 0.5s ease;
+  
+        &:hover {
+          background-color: v.$primary-background;
+        }
+      }
+    }
+  }
+  
