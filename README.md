@@ -1,5 +1,9 @@
 # Welcome to my Portfolio
 
+## To visit my website
+
+https://portfolio-rk0.netlify.app/
+
 ## Introduction
 
 - This project is to build a personal portfolio website that showcases my work and who I am. I wil be using Git and GitHub workflows while applying SCSS & BEM. This website includes:
